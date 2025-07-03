@@ -1,0 +1,6 @@
+bill=int(input("YOUR BILL WAS? :"))
+tip=int(input("HOW MUCH PERCENT OF TIP YOU'D LIKE TO GIVE, 10% , 12% , 15%"))
+total_bill=bill*(tip/100)
+split=int(input('WITH HOW MUCH PEOPLE YOU ARE SPLITING THE BILL? :'))
+final=round(total_bill/split,2)
+print(f"EACH PERSON SHOULD PAY {final} DOLLARS")
