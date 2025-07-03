@@ -19,5 +19,6 @@ input.pack()
 #new line added
 #yayy another line added
 #trying git is crazy !
+#finally removed that shitty git from my vss
 
 window.mainloop()
